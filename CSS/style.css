@@ -3,6 +3,7 @@
 * {
   box-sizing: border-box;  
   font-family: Helvetica;  
+  margin: 1%;	
 }
 
 h1 {
@@ -42,8 +43,7 @@ section {
 	top:0px;
 	right:0px;
 	height: 26px;
-	width: 20%;
-	margin-bottom: 100px;
+	width: 20%;	
 	font-size:125%;	
 }
 
