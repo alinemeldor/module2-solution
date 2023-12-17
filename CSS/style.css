@@ -40,7 +40,7 @@ section {
 	position: absolute;
 	top:0px;
 	right:0px;
-	height: 20px;
+	height: 26px;
 	width: 20%;
 	margin-bottom: 100px;
 	font-size:125%;	
@@ -58,7 +58,7 @@ section {
 
   .col-lg-4, .col-lg-6, .col-lg-12 {
     float: left;
-    padding-top: 30px;
+    padding-top: 36px;
     padding-left: 10px;
     padding-right: 10px;
     margin: 1%;
@@ -87,7 +87,7 @@ section {
   }
    .col-md-6, .col-md-12 {
     float: left;   
-    padding-top: 30px;
+    padding-top: 36px;
     padding-left: 10px;
     padding-right: 10px;
     margin: 1%;
@@ -111,7 +111,7 @@ section {
   }
   .col-sd-12 {
     float: left;
-    padding-top: 30px;          
+    padding-top: 36px;          
     padding-left: 10px;
     padding-right: 10px;
     margin: 1%;
