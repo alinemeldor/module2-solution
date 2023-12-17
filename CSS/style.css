@@ -26,7 +26,7 @@ section {
 }
 #section2Title {
   background-color: #6666FF;
- 
+  color: white;
 
 }
 #section3Title {
@@ -37,7 +37,7 @@ section {
 .sectionTitle
 {
 	text-align: center;
-	color: white;
+	color: Black;
 	position: absolute;
 	top:0px;
 	right:0px;
