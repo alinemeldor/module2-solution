@@ -1,1 +1,132 @@
 
+/********** Base styles **********/
+* {
+  box-sizing: border-box;  
+  font-family: Helvetica;
+}
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+section {
+  border: 1px solid black;
+  position: relative;
+  height: 190px;
+  background-color: #C0C0C0;    
+   
+}
+/*#section1 {
+  background-color: #CCFFCC;
+ 
+}
+#section2 {
+  background-color: #3399FF;
+
+}
+#section3 {
+  background-color: #FF99FF;
+   
+}*/
+
+#section1Title {
+  background-color: #00CC00;
+  
+}
+#section2Title {
+  background-color: #6666FF;
+ 
+
+}
+#section3Title {
+  background-color: #FF007F;
+ 
+
+}
+.sectionTitle
+{
+	color: white;
+	position: absolute;
+	top:0px;
+	right:0px;
+	height: 20px;
+    width: 20%;
+    margin-bottom: 100px;
+}
+
+
+
+/********** desktop version **********/
+@media (min-width: 992px) {
+  
+  body {
+    background-color: White;
+  }
+
+
+  .col-lg-4, .col-lg-6, .col-lg-12 {
+    float: left;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 1%;
+  }
+  
+  .col-lg-4 {
+    width: 31.3%
+  }
+ 
+  .col-lg-6 {
+    width: 49.5%;
+  }
+ 
+  .col-lg-12 {
+    width: 100%;
+  }
+
+}
+
+
+/********** tablet version **********/
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+  body {
+    background-color: Blue;
+  }
+   .col-md-6, .col-md-12 {
+    float: left;   
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 1%;
+  }
+ 
+  
+  .col-md-6 {
+    width: 48%;
+  }
+ 
+  .col-md-12 {
+    width: 98%;
+  }
+}
+
+/********** mobile version **********/
+@media (max-width: 767px) {
+  
+  body {
+    background-color: Green;
+  }
+  .col-sd-12 {
+    float: left;
+    padding-top: 30px;          
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 1%;
+    width: 99%;
+  }
+ 
+}
+
+
