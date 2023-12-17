@@ -18,18 +18,7 @@ section {
   background-color: #C0C0C0;    
    
 }
-/*#section1 {
-  background-color: #CCFFCC;
- 
-}
-#section2 {
-  background-color: #3399FF;
 
-}
-#section3 {
-  background-color: #FF99FF;
-   
-}*/
 
 #section1Title {
   background-color: #00CC00;
@@ -94,7 +83,7 @@ section {
 @media (min-width: 768px) and (max-width: 991px) {
  
   body {
-    background-color: Blue;
+    background-color: #fdfdfd;
   }
    .col-md-6, .col-md-12 {
     float: left;   
@@ -118,7 +107,7 @@ section {
 @media (max-width: 767px) {
   
   body {
-    background-color: Green;
+    background-color: #fbfbfb;
   }
   .col-sd-12 {
     float: left;
